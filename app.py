@@ -1,5 +1,5 @@
-def compute():
-    return 10 / 0  # This triggers the error for your agent
+def run_calculation(x, y):
+    return x / y
 
 if __name__ == "__main__":
-    print(compute())
+    print(run_calculation(10, 0))
